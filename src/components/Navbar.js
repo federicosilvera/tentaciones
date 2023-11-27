@@ -7,21 +7,21 @@ export const Navbar = () => {
     <>
     
     <div className='flex-container'>
-        <h1 className='icon'><Link to="/home">Tentaciones la Chola</Link></h1> 
+        <Link to="/home"><img width="60px" src='https://i.gyazo.com/fa11643cadb556c7420552a881ad02cd.png' alt='logo de la pagina'></img></Link>
             <ul>
               
-                <li><Link to="/home">
+                <li><Link className="letras" to="/home">
                 Inicio </Link>
                 </li>
-                <li><Link to="/menu">
+                <li><Link className="letras" to="/menu">
                 Menú</Link>
                 </li>
                 
-                <li><Link to="/contact">
+                <li><Link className="letras" to="/contact">
                 Contacto</Link>
                 </li>
                 <li>
-                <Link to="about">
+                <Link className="letras" to="about">
                 Nosotros</Link>
             </li>
           </ul>          
