@@ -4,6 +4,7 @@ const Contact = () => {
   return (
     <div>
       Contacto
+      <p>Instagram : tentaciones_la_chola </p>
     </div>
   );
 }

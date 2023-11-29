@@ -7,15 +7,16 @@
   color: white;
   width: 100%;
   margin-top: -20px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 .flex-container ul {
   display:flex;
   justify-content: flex-end;
-  background-color: #87e3ff;
+ 
   margin: 10px;
   list-style: none;
   color: white;
-  
+
 }
 
 
@@ -32,7 +33,7 @@
 }
 
 .flex-container li:hover{
-  background-color: #f6abe3;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   
   
 }
@@ -46,12 +47,14 @@ a{
  
 }
 
-img{
+.img{
   margin-bottom:-80px;
   border-radius: 20px;
   margin-left: 10px;
 }
 
-.letras:hover{
-  color: #87e3ff;
-} 
+.img2{
+  margin-top:20px ;
+  padding: 0;
+}
+

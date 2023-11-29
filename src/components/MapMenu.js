@@ -10,7 +10,7 @@ export const MapMenu = ({comida}) => {
         {comida.map(comidas=>
             <div className='main-container' key={comidas.id}>
               <div className='img-container'>{comidas.food} </div>
-                <p className='names-container'>Name: {comidas.name} LastName: {comidas.price}</p>
+                <p className='names-container'>{comidas.name} {comidas.price}</p>
                 
             </div>
         
